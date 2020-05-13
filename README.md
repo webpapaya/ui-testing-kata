@@ -1,0 +1,14 @@
+- You're building an issue tracking system
+- Build a component which displays the names of assignees
+  - eg. `<Assignees assignees={['Mike', 'Sepp', 'David']} />`
+  - build a simple ul
+- WITH more than 3 assigness,
+  - only display 3 assignees
+  - display a show more button
+
+- WHEN the show more button was clicked
+  - display all assignees
+  - a show less button is displayed instead of a show more button
+  - AND the show less button was clicked, only displays 3 assignees
+- WITH less than 4 assignees,
+  - don't display a "show more" button
